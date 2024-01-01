@@ -7,7 +7,7 @@ const header = () => {
     <div className='head'>
       <img src={img} alt='img' />
     </div>
-    <a href={'/chat-app'} > <img className='img1'alt='img3'src={Close}/></a>
+    <a href={'/chat'} > <img className='img1'alt='img3'src={Close}/></a>
   </div>
 
   )
