@@ -1,0 +1,104 @@
+.chat-page{
+    background-image: linear-gradient(45deg,red,pink);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chat-content{
+    background-color: aliceblue;
+    height: 60%;
+    width: 50%;
+    padding: 2rem;
+    box-shadow: 5px 5px 5px;
+    border-radius: 2rem ;
+
+}
+body{
+    background-image: linear-gradient(45deg,red,pink);
+    height: 100vh;
+}
+.header{
+    background-color: crimson;
+    height: 15%;
+
+}
+.chat{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    height: 70%;
+    box-sizing: border-box;
+overflow-y: auto;
+}
+.sendinput{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 80%;
+    border: none;
+    padding: 1rem;
+    background-color: aliceblue;
+    height: 1vmax;
+    outline: none;
+
+}
+.sendbtn{
+    color: white;
+    border: none;
+    width: 20%;
+    transition: all 0.3s ;
+    cursor: pointer;
+    background-color: crimson;
+}
+.sendbtn:hover{
+    background-color: rgb(146, 9, 37);
+}
+.input{
+    display: flex;
+    border: 0.2vmax solid black;
+    height: 15%; 
+}
+.sendbtn>img{
+    filter: invert(100%);
+    width: 3rem;
+    transition: all 0.4s;
+}
+.sendbtn:hover img{
+    transform:translateX(10px);
+}
+@media screen and (max-width:425px) {
+    .sendbtn>img{
+        width: 2rem;
+    }
+    .chat-content{
+width: 66% !important;
+    }
+    .head >img {
+        width: 28% !important}
+    
+    .sendbtn:hover img{
+        transform:translateX(5px);
+    }
+    .sendinput {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width: 77%;
+        border: none;
+        padding: 1rem;
+        background-color: aliceblue;
+        height: 1vmax;
+        font-size: 8px;
+        outline: none;
+    }
+    .msg {
+        background-color: gainsboro;
+        width: auto;
+        padding: 1vmax;
+        font-size: 11px;
+        margin: 1vmax;
+        border-radius: 0.5vmax;
+        display: inline-block;
+        clear: both;
+    }
+    .sendbtn{
+        width: 25% !important;
+    }
+}

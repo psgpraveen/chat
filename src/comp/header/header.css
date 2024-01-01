@@ -1,0 +1,32 @@
+.head{
+    width: 100vw;
+}
+.head >img{
+width: 18%;
+/* height: 100%; */
+padding: 0.1rem;
+filter: invert(100%) ;
+}
+.main{
+    position: relative;
+}
+.img1{
+    position: absolute;
+    width: 25%;
+    margin-left: 89%;
+    margin-top: -14%;
+    height: 147%;
+    mix-blend-mode: darken;
+    float: right;
+    text-shadow: 5px 4px 2px;
+    cursor: pointer;
+    animation: u 4s infinite alternate-reverse;
+}
+@keyframes u {
+    40%{
+       transform: rotateY(45deg);
+    }
+    80%{
+       transform: rotateY(-45deg);
+    }
+}
