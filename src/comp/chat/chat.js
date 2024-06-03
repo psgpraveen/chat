@@ -6,7 +6,7 @@ import Header from '../header/header'
 import Scroll from "react-scroll-to-bottom";
 import Baate from "../baate/baate";
 import SocketIO from "socket.io-client";
-const ENDPOINT = "https://pspraveen-chat-app.onrender.com/";
+const ENDPOINT = "https://chat-flame-eight.vercel.app/";
 let socket;
 // let msg=[];
 const Chat = () => {
