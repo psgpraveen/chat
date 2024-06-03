@@ -6,7 +6,7 @@ import Header from '../header/header'
 import Scroll from "react-scroll-to-bottom";
 import Baate from "../baate/baate";
 import SocketIO from "socket.io-client";
-const ENDPOINT = "http://localhost:5000";
+const ENDPOINT = "https://pspraveen-chat-app.onrender.com/";
 let socket;
 // let msg=[];
 const Chat = () => {
